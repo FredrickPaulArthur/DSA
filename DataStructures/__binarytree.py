@@ -10,7 +10,7 @@ class BinaryTree:
         self.root = None
         # self.latestNode = None
 
-    # Only insert at the first position available in the Level Order
+    # Insert at the first position available in the Level Order
     def insert(self, node, key):
         if self.root is None:
             self.root = Node(key)
