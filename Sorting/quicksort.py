@@ -27,10 +27,15 @@ def quicksort(arr,low,high):
         quicksort(arr,low,pi-1)
         quicksort(arr,pi+1,high)
 
+
+
+
 n = int(input("Enter the length of array:"))
 arr = []
 for i in range(n):
     arr.append(int(input()))
 print("Before sorting", arr)
+
 quicksort(arr,0,n-1)
+
 print("After sorting", arr)

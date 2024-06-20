@@ -5,6 +5,7 @@ def selectionsort(l2):
             if l2[k]<l2[least]:
                 least=k
         swap(l2,least,i)
+
 def swap(a,x,y):
     temp=a[x]
     a[x]=a[y]
